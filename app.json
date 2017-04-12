@@ -1,0 +1,28 @@
+{
+  "name": "netlift-test-1-2",
+  "scripts": {},
+  "addons": [
+  ],
+  "environments": {
+    "test": {
+      "env": {
+        "APP_NAME": "netlift-test-1-2-test"
+      },
+      "scripts": {
+        "test-setup": "_tests/ci-tests-setup.sh",
+        "test": "_tests/ci-tests.sh"
+      },
+      "buildpacks": [
+        {
+          "url": "heroku/php"
+        },
+        {
+          "url": "heroku/nodejs"
+        },
+        {
+          "url": "https://github.com/heroku/heroku-buildpack-apt"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "repositories": [
+    {
+      "url": "https://github.com/Netlift/php-firebase-cloud-messaging.git",
+      "type": "git"
+    },
+    {
+      "url": "https://github.com/Netlift/YUI-CSS-compressor-PHP-port.git",
+      "type": "git"
+    },
+    {
+      "url": "https://github.com/Netlift/Geocoder.git",
+      "type": "git"
+    }
+  ],
+  "require": {
+    "php": "~7.1.0",
+    "ext-gd": "*",
+    "ext-intl": "*",
+    "ext-mbstring": "*",
+    "ext-imagick": "*",
+    "ext-soap": "*",
+    "tubalmartin/cssmin": "dev-master",
+    "tedivm/jshrink": "~1.0",
+    "crossjoin/browscap": "~1.0.0",
+    "sendgrid/sendgrid": "~4.0",
+    "facebook/graph-sdk": "^5.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "aws/aws-sdk-php": "^3.22",
+    "mobiledetect/mobiledetectlib": "~2.8.12",
+    "maxmind-db/reader": "~1.0",
+    "google/apiclient": "1.0.*@beta",
+    "willdurand/geocoder": "^3.3.1",
+    "stripe/stripe-php": "3.*",
+    "firebase/php-jwt": "^3.0",
+    "zendesk/zendesk_api_client_php": "dev-master",
+    "emcconville/polyline-encoder" : "1.*",
+    "openpay/sdk": "^1.0",
+    "sngrl/php-firebase-cloud-messaging": "^0.9",
+    "algolia/algoliasearch-client-php": "^1.13",
+    "yubico/u2flib-server": "^1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*",
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": { "Netlift\\": "classes/" }
+  }
+}
